@@ -1,7 +1,7 @@
 # list
 
-# l = [1, 2, 3, "abc", True, [10, 20, "abcd", False]]
-# print(l, type(l))
+l = [1, 2, 3, "abc", True, [10, 20, "abcd", False]]
+print(l, type(l))
 
 # l1 = l[3]
 # print(l1)
@@ -15,9 +15,8 @@
 # print(l[len(l) - 1][0])
 # print(dir(l))
 
-"""
-'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
-"""
+# 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
 
 # l = [10, 20, 30, "abcd", False]
 
@@ -44,7 +43,7 @@
 # print(l, l1)
 
 # txt = "Hello, And Welcome To My World!"
-# print(txt.split(" ")
+# print(txt.split(" "))
 
 # List is a mutable datatype
 # l = [10, 20, 30, "abcd", False]
