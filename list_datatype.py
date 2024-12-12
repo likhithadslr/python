@@ -1,7 +1,7 @@
 # list
 
-l = [1, 2, 3, "abc", True, [10, 20, "abcd", False]]
-print(l, type(l))
+# l = [1, 2, 3, "abc", True, [10, 20, "abcd", False]]
+# print(l, type(l))
 
 # l1 = l[3]
 # print(l1)
