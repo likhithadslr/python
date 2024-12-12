@@ -40,6 +40,7 @@
 # print(txt.index('e')) #e's index number
 
 # txt = txt[4]
+# txt=txt[-1]
 # print(txt) #prints whatever the letter we have at that index number
 
 # print(len(txt))
