@@ -48,3 +48,24 @@
 # ans = my_func(a=12,b={"c":123 , "a":320})
 # print(type(ans))
 
+# def my_func(*args,**kwargs):
+#     print(args,kwargs)
+#     return
+# ans=my_func(10,20,120,340,23,45,a=120,b=12)
+# print(ans)
+
+# def my_func(*args,**kwargs):
+#     res=sum(args)
+#     for v in kwargs.values():
+#         res += v
+#     return res
+# ans=my_func(10,20,120,340,23,45,a=120,b=12)
+# print(ans)
+
+def my_func(a,b,*args,**kwargs):
+    res=sum(args)
+    for v in kwargs.values():
+        res += v
+    return res
+ans=my_func(10,20,120,340,23,45,lik=67,abc=12)
+print(ans)
